@@ -1,7 +1,7 @@
 # tt_mar_21
 My tidytuesday
+#load the libraries
 
-#libraries
 library(tidytuesdayR)
 library(tidyverse)
 library(dplyr)
@@ -11,7 +11,9 @@ library(stringr)
 tuesdata <- tidytuesdayR::tt_load('2021-03-30')
 
 #I wanted to look at how the shades varied within common descriptors. I decided to work with (tuesdata$allShades) to explore this
-#move this into a separate object
+# move this into a separate object
+
+
 shades <- tuesdata$allShades
 view(shades)
 
